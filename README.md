@@ -82,7 +82,7 @@ Setting up local environment is extremely easy and straight forward. Follow the 
 
 1. Clone the code locally using:
    ```
-   git clone https://github.com/makeplane/plane.git
+   git clone https://github.com/ali-hassan/plane.git
    ```
 2. Switch to the code folder:
    ```

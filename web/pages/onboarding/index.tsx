@@ -150,8 +150,8 @@ const OnboardingPage: NextPageWithLayout = observer(() => {
           <div className="flex items-center px-4 py-10 sm:px-7 sm:pb-8 sm:pt-14 md:px-14 lg:pl-28 lg:pr-24">
             <div className="flex w-full items-center justify-between font-semibold ">
               <div className="flex items-center gap-x-1 text-3xl">
-                <Image src={BluePlaneLogoWithoutText} alt="Plane Logo" height={30} width={30} />
-                Plane
+                <Image src={BluePlaneLogoWithoutText} alt="Ashlar Logo" height={30} width={30} />
+                Ashlar
               </div>
 
               <div>

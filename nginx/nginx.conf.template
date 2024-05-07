@@ -18,19 +18,23 @@ http {
 
         location / {
             proxy_pass http://web:3000/;
+            proxy_read_timeout 300s;
         }
 
         location /api/ {
             proxy_pass http://api:8000/api/;
+            proxy_read_timeout 300s;
         }
 
         location /spaces/ {
             rewrite ^/spaces/?$ /spaces/login break;
             proxy_pass http://space:3000/spaces/;
+            proxy_read_timeout 300s;
         }
 
         location /${BUCKET_NAME}/ {
             proxy_pass http://plane-minio:9000/${BUCKET_NAME}/;
+            proxy_read_timeout 300s;
         }
     }
 }
